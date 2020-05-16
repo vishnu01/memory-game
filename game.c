@@ -1,4 +1,4 @@
-
+//program needs conio.h header file. It is Operating System Dependent as it uses system('cls') which works in windows
 #include<stdio.h>
 #include<conio.h>
 #include<time.h>
