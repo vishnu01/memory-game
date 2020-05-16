@@ -17,7 +17,7 @@ main()
     static char ch;
     if (d==1)
     {
-    printf("A matrix will be printed for few seconds and vanishes\nyou need to enter the element present at respective positions\nSo be ready.........\n\n \n");
+    printf("A matrix will be printed for few seconds and vanishes\nYou need to enter the element present at respective positions\nSo be ready.........\n\n \n");
     printf("\ntimer running !!");
     while(q)
     {
@@ -60,7 +60,7 @@ main()
     {
         for (j=0;j<=s;j++)
         {
-          printf("enter the element at (%d,%d):",i+1,j+1);
+          printf("Enter the Element at (%d,%d):",i+1,j+1);
           z= getch();
           z=z-48;
           if (a[i][j]==z)
@@ -80,7 +80,8 @@ main()
  
     if (k==(s+1)*(s+1))
     {
-        printf("\nYOU WON!!!!\n\n");
+    	
+        printf("\nCorrect Guess !!!!\n\n");
         printf("press Y if you want to continue otherwise N :");
         fflush(stdin);
         // a = getch();
@@ -103,14 +104,14 @@ main()
         }
         else
         {
-            printf("\n\ninvalid entry !!!\n\nexiting game ..");
+            printf("\n\nInvalid Entry !!!\n\nExiting Game ..");
             exit(0);
         }
     }
     else if (k == -1)
     {
  
-        printf("\nwrong entry !!\n\nGAME OVER !!!!\n\n");
+        printf("\nWrong Entry !!\n\nGAME OVER !!!!\n\n");
         printf("press Y if you want to continue otherwise N : ");
         fflush(stdin);
         z = getch();
@@ -130,7 +131,7 @@ main()
      
     else
     {
-        printf("\n\ninvalid entry !!!\n\nexiting game..");
+        printf("\n\nInvalid Entry !!!\n\nExiting Game..");
         exit(0);
     }
  
